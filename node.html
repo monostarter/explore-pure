@@ -1,0 +1,761 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="format-detection" content="telephone=no" />
+        <base href="" />
+        <meta name="google-site-verification" content="" />
+        
+        <meta name="generator" content="" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="copyright" content="©" />
+        <meta name="author" content="" />
+        <meta name="abstract" content="" />
+        <meta name="robots" content="all" />
+
+        <meta itemprop="name" content="" />
+        <meta itemprop="description" content="" />
+        <meta itemprop="image" content="" />
+        
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:image" content="" />
+        <title>Nodes | Unicorn Ultra (U2U)</title>
+        
+        <link rel="canonical" href="" />
+        <link rel="shortlink" href="" />
+
+        <link href="css/vendor.min.css?v=1.0.0" rel="stylesheet" />
+        <link href="css/layout.css" rel="stylesheet" / >
+        <link href="css/media-screen.css" rel="stylesheet" />
+        
+        <link rel="home" href="" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/icon-logo.png" />
+        <link rel="icon" type="image/png" href="images/icon-logo.png" />
+        <link rel="mask-icon" href="images/icon-logo.png" color="#000000" />
+        <link rel="apple-touch-icon" href="images/icon-logo.png" />
+	</head>
+	<body>
+		<div class="container-fluid padding0">
+			
+			<!-- BEGIN: Header -->
+			<header>
+				
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-5 col-lg-4">
+                            <div class="logo">
+                                <button type="button"><img src="images/logo.png" alt="logo" /></button>
+                            </div>
+                            <p class="information-u2u">
+                                U2U: $1.15 <small class="text-red">(-5.73%)</small> &nbsp; | &nbsp; <img src="images/icon-gas.svg" alt="Gas" /> 3 Gwei
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-8">
+                            <nav class="navigation">
+                                <ul>
+                                    <li><button type="button" onclick="javascript:location.href='index.html'">Dashboard</button></li>
+                                    <li><button type="button" onclick="javascript:location.href='transaction.html'">Transactions</button></li>
+                                    <li><button type="button" onclick="javascript:location.href='token.html'">Tokens</button></li>
+                                    <li><button type="button" onclick="javascript:location.href='topic.html'">Topics</button></li>
+                                    <li><button type="button" onclick="javascript:location.href='contract.html'">Contracts</button></li>
+                                    <li><button type="button" onclick="javascript:location.href='account.html'">Accounts</button></li>
+                                    <li><button class="active" type="button" onclick="javascript:location.href='node.html'">Nodes</button></li>
+                                    <li><button type="button" onclick="javascript:location.href='staking.html'">Staking</button></li>
+                                    <li><button type="button" onclick="javascript:location.href='block.html'">Blocks</button></li>
+                                </ul>
+                            </nav> 
+                            <div class="clearfix"></div>
+                            
+                            
+                            <!-- BEGIN: Button Menu for Mobile -->
+                            <button id="menu-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <img src="images/menu.svg" alt="icon-menu" />
+                            </button>
+                            <div class="clearfix"></div>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-body">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">&#10005;</button>
+                                    <ul>
+                                        <li><button type="button" onclick="javascript:location.href='index.html'">Dashboard</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='transaction.html'">Transactions</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='token.html'">Tokens</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='topic.html'">Topics</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='contract.html'">Contracts</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='account.html'">Accounts</button></li>
+                                        <li><button class="active" type="button" onclick="javascript:location.href='node.html'">Nodes</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='staking.html'">Staking</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='block.html'">Blocks</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- END: Button Menu for Mobile -->
+                            
+
+                            <!-- BEGIN: Form Search -->
+                            <form class="search-form" method="GET" action="search.html">
+                                <input type="text" class="form-control" placeholder="Search accounts, transactions, tokens, contracts and topics" />
+                                <button type="submit"><img src="images/icon-search.svg" alt="search" /></button>
+                            </form>
+                            <!-- END: Form Search -->
+                        </div>
+                    </div>
+                </div>
+                
+			</header>
+			<!-- END: Header -->
+			
+			
+			<!-- BEGIN: Main -->
+			<main>
+				
+                <div class="bg-light">
+                    <div class="container">
+                        
+                        <!-- BEGIN: Network -->
+                        <div class="card lastest-card bg-network">
+                            <div class="card-header">
+                                <h4>Network</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="network-infor">
+                                    <li>
+                                        <small>Total Nodes</small>
+                                        <span>28</span>
+                                    </li>
+                                    <li>
+                                        <small>Total Staked</small>
+                                        <span>31,984,715,666 <small>U2U</small></span>
+                                    </li>
+                                    <li>
+                                        <small>Last Period Reward</small>
+                                        <span>993,175 <small>U2U</small></span>
+                                    </li>
+                                    <li>
+                                        <small>Last Staked</small>
+                                        <span><time>2h 24min ago</time></span>
+                                    </li>
+                                    <li>
+                                        <small>Next Staking Period</small>
+                                        <span>in 21h 36min</span>
+                                    </li>
+                                    <li>
+                                        <small>Staking Period</small>
+                                        <span>24h</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- END: Network -->
+                        
+                        
+                        <!-- BEGIN: Nodes -->
+                        <div class="card lastest-card">
+                            <div class="card-header">
+                                <h4>Nodes</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive node-table">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>Node</th>
+                                                <th>Description</th>
+                                                <th class="text-end">Stake</th>
+                                                <th class="text-end">Staked For No Reward</th>
+                                                <th class="text-center">Stake Range</th>
+                                                <th class="text-end">Reward Rate</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> LG | Seoul, South Korea</td>
+                                                <td class="text-end">1,181,836,768 (4.7%)</td>
+                                                <td class="text-end">589,078,061 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:20%;" class="span-green" ></span>
+                                                        <span style="width:35%;" class="span-red"></span>
+                                                        <span style="width:45%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> Swirlds | North Carolina, USA</td>
+                                                <td class="text-end">1,786,510,537 (5.6%)</td>
+                                                <td class="text-end">719,941,134 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:40%;" class="span-green" ></span>
+                                                        <span style="width:25%;" class="span-red"></span>
+                                                        <span style="width:35%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> Wipro | Mumbai, India</td>
+                                                <td class="text-end">1,091,509,102 (3.7%)</td>
+                                                <td class="text-end">1,063,328,305 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:60%;" class="span-green" ></span>
+                                                        <span style="width:25%;" class="span-red"></span>
+                                                        <span style="width:15%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> LG | Seoul, South Korea</td>
+                                                <td class="text-end">1,181,836,768 (4.7%)</td>
+                                                <td class="text-end">589,078,061 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:20%;" class="span-green" ></span>
+                                                        <span style="width:35%;" class="span-red"></span>
+                                                        <span style="width:45%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> Swirlds | North Carolina, USA</td>
+                                                <td class="text-end">1,786,510,537 (5.6%)</td>
+                                                <td class="text-end">719,941,134 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:40%;" class="span-green" ></span>
+                                                        <span style="width:25%;" class="span-red"></span>
+                                                        <span style="width:35%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> Wipro | Mumbai, India</td>
+                                                <td class="text-end">1,091,509,102 (3.7%)</td>
+                                                <td class="text-end">1,063,328,305 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:60%;" class="span-green" ></span>
+                                                        <span style="width:25%;" class="span-red"></span>
+                                                        <span style="width:15%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> LG | Seoul, South Korea</td>
+                                                <td class="text-end">1,181,836,768 (4.7%)</td>
+                                                <td class="text-end">589,078,061 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:20%;" class="span-green" ></span>
+                                                        <span style="width:35%;" class="span-red"></span>
+                                                        <span style="width:45%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> Swirlds | North Carolina, USA</td>
+                                                <td class="text-end">1,786,510,537 (5.6%)</td>
+                                                <td class="text-end">719,941,134 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:40%;" class="span-green" ></span>
+                                                        <span style="width:25%;" class="span-red"></span>
+                                                        <span style="width:35%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> Wipro | Mumbai, India</td>
+                                                <td class="text-end">1,091,509,102 (3.7%)</td>
+                                                <td class="text-end">1,063,328,305 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:60%;" class="span-green" ></span>
+                                                        <span style="width:25%;" class="span-red"></span>
+                                                        <span style="width:15%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                        
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> LG | Seoul, South Korea</td>
+                                                <td class="text-end">1,181,836,768 (4.7%)</td>
+                                                <td class="text-end">589,078,061 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:20%;" class="span-green" ></span>
+                                                        <span style="width:35%;" class="span-red"></span>
+                                                        <span style="width:45%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> Swirlds | North Carolina, USA</td>
+                                                <td class="text-end">1,786,510,537 (5.6%)</td>
+                                                <td class="text-end">719,941,134 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:40%;" class="span-green" ></span>
+                                                        <span style="width:25%;" class="span-red"></span>
+                                                        <span style="width:35%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            <tr onclick="javascript:location.href='detail-node.html'">
+                                                <td><img src="images/node.svg" alt="icon-node" /></td>
+                                                <td>0</td>
+                                                <td><span class="text-gray">Hosted by</span> Wipro | Mumbai, India</td>
+                                                <td class="text-end">1,091,509,102 (3.7%)</td>
+                                                <td class="text-end">1,063,328,305 U2U</td>
+                                                <td 
+                                                    class="stake-range"
+                                                    data-bs-toggle="popover" 
+                                                    data-bs-placement="top" 
+                                                    data-bs-trigger="hover focus" 
+                                                    data-bs-content="
+                                                        <ul class='hover-popover'>
+                                                            <li>
+                                                                <span class='span-green'></span>
+                                                                <span>Rewarded:</span>
+                                                                <span><b>59.08394</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class='span-red'></span>
+                                                                <span>Not Rewarded:</span>
+                                                                <span><b>10.09948</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Min:</span>
+                                                                <span><b>3.98702</b> U2U</span>
+                                                            </li>
+                                                            <li>
+                                                                <span></span>
+                                                                <span>Max:</span>
+                                                                <span><b>35.98658</b> U2U</span>
+                                                            </li>
+                                                        </ul>
+                                                    ">
+                                                    <span class="group-stake-range">
+                                                        <span style="width:60%;" class="span-green" ></span>
+                                                        <span style="width:25%;" class="span-red"></span>
+                                                        <span style="width:15%;"></span>
+                                                    </span>
+                                                </td>
+                                                <td class="text-end">6.5%</td>
+                                            </tr>
+                                            
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END: Nodes -->
+                        
+                        
+                    </div>
+                </div>
+
+			</main>
+			<!-- END: Main -->
+			
+			
+			<!-- BEGIN: Footer -->
+			<footer>
+				<div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <div class="logo-footer">
+                                <a href="#"><img src="images/logo.png" alt="logo" /></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-5">                        
+                            <ul class="link-privacy">
+                                <li><a class="link-other" href="https://docs.uniultra.xyz/the-u2u-foundation-privacy-policy" target="_blank">Privacy Policy</a></li>
+                                <li><a class="link-other" href="https://docs.uniultra.xyz/u2u-foundation" target="_blank">U2U Venture Builder Council</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <ul class="fanpages">
+                                <li><a target="_blank" ref="nofollow" href="https://twitter.com/UniUltraxyz"><img src="images/social/twitter.png" alt="Twitter" /></a></li>
+                                <li><a target="_blank" ref="nofollow" href="https://t.me/UnicornUltra"><img src="images/social/telegram.png" alt="Telegram" /></a></li>
+                                <li><a target="_blank" ref="nofollow" href="https://discord.gg/QE3J7KVwNp"><img src="images/social/discord.png" alt="Discord" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+			</footer>
+			<!-- END: Footer -->
+            
+			<button onclick="topFunction();" id="clickToTop" title="Back to top"><img src="images/arrow-right.svg" alt="Back to top" /></button>            
+            
+		</div>
+		<script src="js/vendor.min.js?v=1.0.0"></script>
+		<script src="js/script.js"></script>        
+	</body>
+</html>

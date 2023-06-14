@@ -1,0 +1,272 @@
+﻿/* ================= MEDIA SCREEN ================= */
+/* ================= XX-Large (Huge Desktop) ================= */
+@media (max-width: 1399.98px){
+    .navigation ul li button{
+        margin-right:0;
+        font-size:13px;
+    }
+    
+    body{
+        font-size:12px;
+    }
+}
+
+@media (min-width: 1200px){
+    #menu-mobile{
+        display:none;
+    }
+}
+
+@media (max-width: 1199.98px){
+    .infor-reward p span{
+        font-size:13px;
+        margin-bottom:0;
+    }
+    
+    .infor-reward p strong{
+        font-size:20px;
+    }
+    
+    .infor-u2u p b{
+        font-size:22px;
+    }
+    
+    main{
+        margin-top:135px;
+    }
+    
+    .navigation{
+        display:none;
+    }
+    
+    #menu-mobile img{
+        width: 39px;
+        filter: brightness(1.2);
+    }
+    
+    #menu-mobile{
+        float:right;
+    }
+    
+    #offcanvasRight{
+        border-left:0;
+    }
+    
+    #offcanvasRight ul li{
+        position:relative;
+    }
+    
+    #offcanvasRight ul li .active:after{
+        position: absolute;
+        width: 35px;
+        height: 3px;
+        background: var(--green);
+        content: '';
+        top: 26px;
+        left: -30px;
+    }
+    
+    #offcanvasRight ul li .active{
+        color:var(--green);
+        font-family:var(--font_b);
+    }
+    
+    #offcanvasRight ul li button{
+        font-size:18px;
+        font-family:var(--font);
+        padding:12px 15px;
+        color:var(--white);
+    }
+    
+    .offcanvas{
+       max-width:75%;
+       background:var(--dark) url('../images/bg-uniultra.webp') no-repeat left center;
+       background-size:cover;
+    }
+   
+    header{
+        background-size:cover;
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        z-index:6;
+    }
+}
+
+/* ================= XX-Large (Huge Desktop) ================= */
+@media (min-width: 992px){
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+/* ================= XX-Large (Huge Desktop) ================= */
+@media (min-width: 768px){
+	
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+    
+}
+
+/* ================= Options Devices (All Devices) ================= */
+@media (max-width: 991.98px){
+    .internal-tnx table tr td img{
+        display:none;
+    }
+    
+    .allow-table{
+        margin-bottom:30px;
+    }
+    
+    .form-group{
+        margin:15px 0;
+    }
+    
+    .network-infor li{
+        width:calc(100% / 2);
+    }
+    
+    .network-infor li span{
+        font-size:25px;
+    }
+    
+    .link-privacy li:after{
+        display:none;
+    }
+    
+    .link-privacy{
+        margin-top:0;
+    }
+    
+    .link-privacy li a{
+        display:block;
+        padding:2px 0;
+        font-size:13px;
+    }
+    
+    .link-privacy li{
+        display:block;
+        padding-left:0;
+    }
+    
+    .infor-u2u p span{
+        font-size:12px;
+    }
+    
+    .infor-u2u p b{
+        font-size:18px;
+        margin-bottom:7px;
+    }
+    
+    .border-right{
+        border:0;
+    }
+    
+    .container-fluid{
+		overflow-x:hidden;
+	}
+}
+
+@media (max-width: 767.98px) {
+    .card-footer, .card-body, .card-header{
+        padding:15px;
+    }
+    
+    table tr td{
+        padding:10px 5px !important;
+    }
+    
+    .lastest-card .card-header h4 span{
+        display:block;
+        margin-bottom:10px;
+    }
+    
+    .card-header .text-method{
+        margin-left:0;
+    }
+    
+    .infor-reward p{
+        margin-bottom:15px;
+    }
+    
+    .lastest-card .form-select{
+        width:100%;
+        margin-top:0;
+    }
+    
+    .lastest-card h4{
+        margin-bottom:10px;
+    }
+    
+    .card-header h4{
+        font-size:16px;
+    }
+    
+    header{
+        padding:0 0 15px;
+    }
+
+    .infor-u2u p{
+        margin:10px 0 15px;
+    }
+    
+    main{
+        margin-top:160px;
+    }
+    
+    #menu-mobile{
+        position:absolute;
+        top:15px;
+        right:10px;
+    }
+    
+    body{
+        font-size:12px;
+    }
+    
+	.space_section{
+		padding:50px 0;
+	}	
+}
+
+
+@media (max-width:575.98px){
+    .lastest-card .bg-light{
+        padding:20px;
+    }
+    
+    .network-infor li{
+        width:100% !important;
+        margin-bottom:20px;
+    }
+    
+    .bg-light{
+        padding-left:0;
+        padding-right:0;
+    }
+    
+    .logo-footer img{
+        display:block;
+        margin:0 auto 10px;
+    }
+    
+    .link-privacy li a{
+        padding:7px 0 !important;
+        font-size:14px !important;
+    }
+    
+    .link-privacy{
+        margin:15px 0;
+    }
+    
+    .fanpages li a{
+        margin:0 5px;
+    }
+    
+    .fanpages li img{
+        width:32px;
+    }
+}

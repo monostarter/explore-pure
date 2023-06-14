@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="format-detection" content="telephone=no" />
+        <base href="" />
+        <meta name="google-site-verification" content="" />
+        
+        <meta name="generator" content="" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="copyright" content="©" />
+        <meta name="author" content="" />
+        <meta name="abstract" content="" />
+        <meta name="robots" content="all" />
+
+        <meta itemprop="name" content="" />
+        <meta itemprop="description" content="" />
+        <meta itemprop="image" content="" />
+        
+        <meta property="og:url" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:description" content="" />
+        <meta name="twitter:image" content="" />
+        <title>Detail Transactions | Unicorn Ultra (U2U)</title>
+        
+        <link rel="canonical" href="" />
+        <link rel="shortlink" href="" />
+
+        <link href="css/vendor.min.css?v=1.0.0" rel="stylesheet" />
+        <link href="css/layout.css" rel="stylesheet" / >
+        <link href="css/media-screen.css" rel="stylesheet" />
+        
+        <link rel="home" href="" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/icon-logo.png" />
+        <link rel="icon" type="image/png" href="images/icon-logo.png" />
+        <link rel="mask-icon" href="images/icon-logo.png" color="#000000" />
+        <link rel="apple-touch-icon" href="images/icon-logo.png" />
+	</head>
+	<body>
+		<div class="container-fluid padding0">
+			
+			<!-- BEGIN: Header -->
+			<header>
+				
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-5 col-lg-4">
+                            <div class="logo">
+                                <button type="button"><img src="images/logo.png" alt="logo" /></button>
+                            </div>
+                            <p class="information-u2u">
+                                U2U: $1.15 <small class="text-red">(-5.73%)</small> &nbsp; | &nbsp; <img src="images/icon-gas.svg" alt="Gas" /> 3 Gwei
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-8">
+                            <nav class="navigation">
+                                <ul>
+                                    <li><button type="button">Dashboard</button></li>
+                                    <li><button class="active" type="button">Transactions</button></li>
+                                    <li><button type="button">Tokens</button></li>
+                                    <li><button type="button">Topics</button></li>
+                                    <li><button type="button">Contracts</button></li>
+                                    <li><button type="button">Accounts</button></li>
+                                    <li><button type="button">Nodes</button></li>
+                                    <li><button type="button">Staking</button></li>
+                                    <li><button type="button">Blocks</button></li>                                    
+                                    <!-- 
+                                    <li class="dropdown">
+                                        <button class="dropdown-toggle" data-toggle="dropdown">Tokens</button>
+                                        <ul class="dropdown-menu">
+                                            <li><button type="button">Validators Leaderboard</button></li>
+                                            <li><button type="button">View Validators Set Info</button></li>                                            
+                                        </ul>
+                                    </li>
+                                    -->                                   
+                                </ul>
+                            </nav> 
+                            <div class="clearfix"></div>
+                            
+                            
+                            <!-- BEGIN: Button Menu for Mobile -->
+                            <button id="menu-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <img src="images/menu.svg" alt="icon-menu" />
+                            </button>
+                            <div class="clearfix"></div>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-body">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">&#10005;</button>
+                                    <ul>
+                                        <li><button type="button" onclick="javascript:location.href='index.html'">Dashboard</button></li>
+                                        <li><button class="active" type="button" onclick="javascript:location.href='transaction.html'">Transactions</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='token.html'">Tokens</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='topic.html'">Topics</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='contract.html'">Contracts</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='account.html'">Accounts</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='node.html'">Nodes</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='staking.html'">Staking</button></li>
+                                        <li><button type="button" onclick="javascript:location.href='block.html'">Blocks</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- END: Button Menu for Mobile -->
+                            
+
+                            <!-- BEGIN: Form Search -->
+                            <form class="search-form" method="GET" action="">
+                                <input type="text" class="form-control" placeholder="Search accounts, transactions, tokens, contracts and topics" />
+                                <button type="submit"><img src="images/icon-search.svg" alt="search" /></button>
+                            </form>
+                            <!-- END: Form Search -->
+                        </div>
+                    </div>
+                </div>
+                
+			</header>
+			<!-- END: Header -->
+			
+			
+			<!-- BEGIN: Main -->
+			<main>
+				
+                <!-- BEGIN: Transaction Detail -->
+                <div class="bg-light">
+                    <div class="container">
+                        <h2 class="title-page">Transactions Details</h2>
+                        <div class="card internal-tnx">
+                            <div class="card-header">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-overview" type="button" role="tab" aria-controls="nav-overview" aria-selected="true">Overview</button>
+                                    <button class="nav-link" id="nav-internal-tab" data-bs-toggle="tab" data-bs-target="#nav-internal" type="button" role="tab" aria-controls="nav-internal" aria-selected="false">Internal Txns</button>
+                                    <button class="nav-link" id="nav-log-tab" data-bs-toggle="tab" data-bs-target="#nav-log" type="button" role="tab" aria-controls="nav-log" aria-selected="false">Logs (2)</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-overview" role="tabpanel" aria-labelledby="nav-overview-tab" tabindex="0">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="A TxHash or transaction hash is a unique 66-character identifier that is generated whenever a transaction is executed." /> Transaction Hash: 
+                                                    </td>
+                                                    <td>
+                                                        <span>0x1c8e9ae659bdea0365142a285b43a86014d5a4441cc6a53dc706ea17ad0d5b23</span>
+                                                        <button type="button" class="btn-copy" data-bs-toggle="tooltip" data-bs-title="Copy"><img src="images/copy.svg" alt="copy" /></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="The status of the transaction." /> Status:
+                                                    </td>
+                                                    <td>
+                                                        <span class="text-success"><img src="images/i-success.svg" alt="success" /> Success</span>
+                                                        <!-- <span class="text-failed"><img src="images/i-failed.svg" alt="failed" /> Failed</span> -->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="Number of the block in which the transaction is recorded. Block confirmations indicate how many blocks have been added since the transaction was validated." /> Block:
+                                                    </td>
+                                                    <td>
+                                                        <button type="button" class="text-underline text-green">28018022</button>
+                                                        <p class="coin-u2u" data-bs-toggle="tooltip" data-bs-title="Number of blocks validated since">1754 Block Confirmations</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="The date and time at which a transaction is validated." /> Timestamp:
+                                                    </td>
+                                                    <td><img src="images/clock.svg" alt="clock" /> 1 hr 27 mins ago (May-08-2023 01:58:39 AM +UTC) </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="The sending party of the transaction." /> From:
+                                                    </td>
+                                                    <td>
+                                                        <span>0xb218c5d6af1f979ac42bc68d98a5a0d796c6ab01</span>
+                                                        <button type="button" class="btn-copy" data-bs-toggle="tooltip" data-bs-title="Copy"><img src="images/copy.svg" alt="copy" /></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="The receiving party of the transaction (could be a contract address)." /> To:
+                                                    </td>
+                                                    <td>
+                                                        <span>0xb218c5d6af1f979ac42bc68d98a5a0d796c6ab01</span>
+                                                        <button type="button" class="btn-copy" data-bs-toggle="tooltip" data-bs-title="Copy"><img src="images/copy.svg" alt="copy" /></button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="The value being transacted in BNB and fiat value. Note: You can click the fiat value (if available) to see historical value at the time of transaction." /> Value:
+                                                    </td>
+                                                    <td>
+                                                        <p><span class="text-outline-green"><b>0.077948108769764192</b> U2U</span> (<b>$1,587.3980</b>)</p>                                           
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="Amount paid to the miner for processing the transaction." /> Transaction Fee:
+                                                    </td>
+                                                    <td>
+                                                        <b>0.001</b> U2U ($0.00)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="Cost per unit of gas specified for the transaction, in BNB and Gwei. The higher the gas price the higher chance of getting included in a block." /> Gas Price:
+                                                    </td>
+                                                    <td>
+                                                        <b>0.0015</b> U2U (0.0015 U2U)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="Maximum amount of gas allocated for the transaction & the amount eventually used. Normal ETH transfers involve 21,000 gas units while contracts involve higher values." /> Gas Limit & Usage by Txn:
+                                                    </td>
+                                                    <td>
+                                                        <p> <b>9,223,372,036,854,775,807</b> &nbsp; | &nbsp; <b>27,168</b> (0%) </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/icon-i.svg" alt="information" data-bs-toggle="tooltip" data-bs-title="Other data related to this transaction." /> Other Attributes:
+                                                    </td>
+                                                    <td>
+                                                        <span class="text-outline-green">Nonce: 707950</span>
+                                                        <span class="text-outline-green">Position: 141</span>
+                                                    </td>
+                                                </tr>                                                
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-internal" role="tabpanel" aria-labelledby="nav-internal-tab" tabindex="0">
+                                        <p class="sub-p-title"><img src="images/puzzle.svg" alt="puzzle" /> The contract call <b>From</b> <button type="button" class="text-green">0xb218c...6c6ab01</button> <img src="images/right.svg" alt="right" /> <b>To</b> <button type="button" class="text-green">0x0000...1000</button> produced 1 Internal Transaction</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-log" role="tabpanel" aria-labelledby="nav-log-tab" tabindex="0">
+                                        <p class="sub-p-title">Transaction Receipt Event Logs</p>
+                                        
+                                        <!-- BEGIN: Item -->
+                                        <div class="event-log">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-3 col-lg-2">
+                                                    <span>Address</span>
+                                                </div>
+                                                <div class="col-12 col-sm-9 col-lg-10">
+                                                    <button type="button" class="text-underline text-green">0x00000000000000000000000000000</button>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-12 col-sm-3 col-lg-2">
+                                                    <span>Name</span>
+                                                </div>
+                                                <div class="col-12 col-sm-9 col-lg-10">
+                                                    <p><small class="text-gray">feeBurned </small> (<small class="text-green">unint 256 </small><small class="text-red">amount</small>)</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-12 col-sm-3 col-lg-2">
+                                                    <span>Topics</span>
+                                                </div>
+                                                <div class="col-12 col-sm-9 col-lg-10">
+                                                    <span class="address-topic"><small>0</small> 0x627059660ea01c4733a328effb2294d2f86905bf806da763a89cee254de8bee5</span>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-12 col-sm-3 col-lg-2">
+                                                    <span class="data-label">Data</span>
+                                                </div>
+                                                <div class="col-12 col-sm-9 col-lg-10">
+                                                    <p class="bg-data">amount :7794810876976419</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- END: Item -->
+                                        
+                                        
+                                        <!-- BEGIN: Item -->
+                                        <div class="event-log">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-3 col-lg-2">
+                                                    <span>Address</span>
+                                                </div>
+                                                <div class="col-12 col-sm-9 col-lg-10">
+                                                    <button type="button" class="text-underline text-green">0x00000000000000000000000000000</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                               <div class="col-12 col-sm-3 col-lg-2">
+                                                    <span>Topics</span>
+                                                </div>
+                                                <div class="col-12 col-sm-9 col-lg-10">
+                                                    <span class="address-topic"><small>0</small> 0x93a090ecc682c002995fad3c85b30c5651d7fd29b0be5da9d784a3302aedc055</span>
+                                                    <span class="address-topic"><small>1</small> 0x000000000000000000000000b218c5d6af1f979ac42bc68d98a5a0d796c6ab01</span>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-12 col-sm-3 col-lg-2">
+                                                    <span class="data-label">Data</span>
+                                                </div>
+                                                <div class="col-12 col-sm-9 col-lg-10">
+                                                    <p class="bg-data">00000000000000000000000000000000000000000000000000f93c0d80b8c63d</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- END: Item -->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <!-- END: Transaction Detail -->
+                
+			</main>
+			<!-- END: Main -->
+			
+			
+			<!-- BEGIN: Footer -->
+			<footer>
+				<div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <div class="logo-footer">
+                                <a href="#"><img src="images/logo.png" alt="logo" /></a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-5">                        
+                            <ul class="link-privacy">
+                                <li><a class="link-other" href="https://docs.uniultra.xyz/the-u2u-foundation-privacy-policy" target="_blank">Privacy Policy</a></li>
+                                <li><a class="link-other" href="https://docs.uniultra.xyz/u2u-foundation" target="_blank">U2U Venture Builder Council</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            <ul class="fanpages">
+                                <li><a target="_blank" ref="nofollow" href="https://twitter.com/UniUltraxyz"><img src="images/social/twitter.png" alt="Twitter" /></a></li>
+                                <li><a target="_blank" ref="nofollow" href="https://t.me/UnicornUltra"><img src="images/social/telegram.png" alt="Telegram" /></a></li>
+                                <li><a target="_blank" ref="nofollow" href="https://discord.gg/QE3J7KVwNp"><img src="images/social/discord.png" alt="Discord" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+			</footer>
+			<!-- END: Footer -->
+            
+			<button onclick="topFunction();" id="clickToTop" title="Back to top"><img src="images/arrow-right.svg" alt="Back to top" /></button>            
+            
+		</div>
+		<script src="js/vendor.min.js?v=1.0.0"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
